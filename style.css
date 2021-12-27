@@ -2,7 +2,7 @@
     --pink: hsl(322, 100%, 66%);
     --light-pink: hsl(321, 100%, 78%);  
     --light-red: hsl(0, 100%, 63%); 
-    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-dark-cyan: #012a34;
     --very-pale-blue: hsl(207, 100%, 98%);
 
     --ff-poppins: 'Poppins', sans-serif;
@@ -177,6 +177,12 @@ body {
 }
 
 /* Footer */
+.footer-wave {
+    width: 1500px;
+    margin-top: 5rem;
+    margin-bottom: -0.5rem;
+}
+
 footer {
     font-size: 1rem;
     color: var(--very-pale-blue);
