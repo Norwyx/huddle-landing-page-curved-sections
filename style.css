@@ -4,6 +4,7 @@
     --light-red: hsl(0, 100%, 63%); 
     --very-dark-cyan: #012a34;
     --very-pale-blue: hsl(207, 100%, 98%);
+    --cyan-hover: hsl(192, 96%, 70%);
 
     --ff-poppins: 'Poppins', sans-serif;
     --ff-open: 'Open Sans', sans-serif;
@@ -78,6 +79,12 @@ body {
     border: 2px solid var(--light-pink);
     border-radius: 25px;
     margin-right: 5rem;
+    transition-duration: .4s;
+}
+
+.nav__btn:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 /* Hero */
@@ -107,6 +114,12 @@ body {
     border-radius: 50px;
     border: none;
     margin-bottom: 7rem;
+    transition-duration: .4s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--light-pink);
 }
 
 .bottom--image {
@@ -252,6 +265,10 @@ footer {
     border: none;
 }
 
+.email-form:hover {
+    cursor: pointer;
+}
+
 .footer-btn {
     font-weight: 600;
     color: var(--very-pale-blue);
@@ -260,6 +277,12 @@ footer {
     border: none;
     border-radius: 5px;
     margin-left: 1.5rem;
+    transition-duration: .4s;
+}
+
+.footer-btn:hover {
+    cursor: pointer;
+    background-color: var(--light-pink);
 }
 
 .footer__social-media {
@@ -278,4 +301,10 @@ footer {
     justify-content: center;
     font-size: 2.5rem;
     text-decoration: none;
+    transition-duration: .4s;
+}
+
+.social-media--links a:hover {
+    cursor: pointer;
+    color: var(--cyan-hover);
 }
