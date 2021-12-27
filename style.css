@@ -191,7 +191,8 @@ body {
 
 /* Footer */
 .footer-wave {
-    width: 1500px;
+    width: 100%;
+    max-width: 2560px;
     margin-top: 5rem;
     margin-bottom: -0.5rem;
 }
