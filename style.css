@@ -109,3 +109,25 @@ body {
     width: 1000px;
     height: auto;
 }
+
+/* Stats */
+.stats {
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+.stats--image {
+    width: 35px;
+    height: auto;
+}
+
+.stat-num {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--very-dark-cyan);
+}
+
+.stat-info {
+    opacity: 0.5;
+    text-align: center;
+}
