@@ -386,3 +386,10 @@ footer {
         margin-top: 1rem;
     }
 }
+
+/* 1048px / 65.5rem */
+@media (max-width: 65.5rem) {
+    .footer__content {
+        gap: 6rem;
+    }
+}
