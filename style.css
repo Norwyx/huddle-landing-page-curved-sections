@@ -309,3 +309,27 @@ footer {
     cursor: pointer;
     color: var(--cyan-hover);
 }
+
+/* Responsive */
+/* 1330px / 83.125rem */
+@media (max-width: 83.125rem) {
+    .features {
+        margin: 20rem 6rem;
+    }
+
+    .features-row {
+        gap: 4rem;
+    }
+    
+    .footer__content {
+        gap: 13rem;
+    }
+    
+    .footer__left {
+        margin-left: 6rem;
+    }
+
+    .footer__social-media {
+        margin-left: 6rem;
+    }
+}
