@@ -8,6 +8,8 @@
 
     --ff-poppins: 'Poppins', sans-serif;
     --ff-open: 'Open Sans', sans-serif;
+
+    --btn-shadow: 0px 7px 15px 1px rgba(0,0,0,0.22);
 }
 
 html {
@@ -110,6 +112,7 @@ body {
     font-weight: 600;
     color: var(--very-pale-blue);
     background-color: var(--pink);
+    box-shadow: var(--btn-shadow);
     padding: 1.5rem 6rem;
     border-radius: 50px;
     border: none;
