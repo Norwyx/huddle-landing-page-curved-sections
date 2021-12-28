@@ -393,3 +393,15 @@ footer {
         gap: 6rem;
     }
 }
+
+/* 958px / 59.875rem */
+@media (max-width: 59.875rem) {
+    .footer__content {
+        gap: 4rem;
+    }
+
+    .features-row {
+        gap: 2rem;
+        margin-bottom: 15rem;
+    }
+}
