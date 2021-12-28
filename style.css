@@ -404,4 +404,20 @@ footer {
         gap: 2rem;
         margin-bottom: 15rem;
     }
+
+    .features {
+        margin: 15rem 3rem;
+    }
+
+    .footer__left {
+        margin-left: 3.5rem;
+    }
+
+    .footer__social-media {
+        margin-left: 3.5rem;
+    }
+
+    .bottom--image {
+        width: 700px;
+    }
 }
