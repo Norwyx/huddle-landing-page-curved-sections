@@ -289,7 +289,6 @@ footer {
 .footer__social-media {
     margin-top: 5rem;
     margin-left: 10rem;
-    
 }
 
 .social-media--links {
@@ -331,5 +330,20 @@ footer {
 
     .footer__social-media {
         margin-left: 6rem;
+    }
+}
+
+/* 1200px / 75rem */
+@media (max-width: 75rem) {
+    .footer__content {
+        gap: 8rem;
+    }
+    
+    .footer__left {
+        margin-left: 5rem;
+    }
+
+    .footer__social-media {
+        margin-left: 5rem;
     }
 }
