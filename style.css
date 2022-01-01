@@ -315,6 +315,40 @@ footer {
 }
 
 /* Responsive */
+/* 1920px and above */
+@media (min-width: 120rem) {
+    .features-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row--text {
+        width: 400px;
+    }
+    
+    .footer__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__left {
+        margin-left: 0;
+    }
+
+    .footer__right {
+        margin-right: 0;
+    }
+
+    .footer__social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+
 /* 1330px / 83.125rem */
 @media (max-width: 83.125rem) {
     .features {
