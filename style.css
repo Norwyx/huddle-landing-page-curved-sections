@@ -533,3 +533,14 @@ footer {
         margin-left: 2rem;
     }
 }
+
+/* 518px / 32.375rem */
+@media (max-width: 32.375rem) {
+    .bottom--image {
+        width: 400px;
+    }
+    
+    .row--image {
+        width: 300px;
+    }
+}
