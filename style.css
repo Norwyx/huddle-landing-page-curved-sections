@@ -55,6 +55,7 @@ body {
     font-size: 1.125rem;
     font-family: var(--ff-open);
     background-color: var(--very-pale-blue);
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -543,5 +544,33 @@ footer {
     
     .row--image {
         width: 300px;
+    }
+}
+
+/* 446px / 27.875rem */
+@media (max-width: 27.875rem) { 
+    .bottom--image {
+        width: 345px;
+    }
+    
+    .second--text {
+        width: 350px;
+    }
+    
+    .footer__right {
+        margin-right: 1rem;
+    }
+
+    .email-form {
+        padding: 0.6rem 0 0.6rem 0.5rem;
+        width: 90%;
+    }
+
+    .footer-btn {
+        margin-right: 2.1rem;
+    }
+
+    .footer__content, .footer__social-media {
+        margin-left: 1.5rem;
     }
 }
