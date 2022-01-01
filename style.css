@@ -10,6 +10,7 @@
     --ff-open: 'Open Sans', sans-serif;
 
     --btn-shadow: 0px 7px 15px 1px rgba(0,0,0,0.22);
+    --btn-shadow-sml: 0px 4px 15px 1px rgba(0,0,0,0.22);
 }
 
 html {
@@ -478,4 +479,57 @@ footer {
     .footer__social-media {
         margin-left: 3.5rem;
     }    
+}
+
+/* 710px / 44.375rem */
+@media (max-width: 44.375rem) {
+    .nav {
+        height: 80px;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+    
+    .nav__brand {
+        width: 150px;
+    }
+    
+    .nav__btn {
+        padding: 0.4rem 1.8rem;
+    }
+    
+    .first--title {
+        font-size: 2rem;
+    }
+    
+    .first--text {
+        width: auto;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.8rem 3rem;
+        box-shadow: var(--btn-shadow-sml);
+    }
+    
+    .bottom--image {
+        width: 500px;
+    }
+    
+    .stats {
+        flex-direction: column;
+        gap: 8rem;
+    }
+
+    .row--title {
+        font-size: 2rem;
+    }
+
+    .call-to-action__text {
+        font-size: 2rem;    
+    }
+
+    .footer__content, .footer__social-media {
+        margin-left: 2rem;
+    }
 }
