@@ -482,7 +482,7 @@ footer {
 }
 
 /* 710px / 44.375rem */
-@media (max-width: 44.375rem) {
+@media (max-width: 44.375rem) { 
     .nav {
         height: 80px;
         margin-top: 1rem;
@@ -510,6 +510,7 @@ footer {
     .btn {
         padding: 0.8rem 3rem;
         box-shadow: var(--btn-shadow-sml);
+        font-size: 1rem;
     }
     
     .bottom--image {
